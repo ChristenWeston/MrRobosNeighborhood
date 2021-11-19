@@ -1,3 +1,14 @@
+//UI Logic
+
+$(document).ready(function() {
+  $("#mr-robogers-neighborhood").submit(function(event) {
+    event.preventDefault();
+    const number = $("input#number").val();
+    
+    $("#welcome").show();
+  });
+});
+
 //Business logic
 
 function beepBoop(number) {
@@ -23,4 +34,3 @@ function beepBoop(number) {
   return numbersAndBeeps;
 }
 
-//UI Logic

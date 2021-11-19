@@ -12,3 +12,5 @@ function beepBoop(number) {
   }
   return numbersAndBeeps;
 }
+
+//UI Logic

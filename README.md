@@ -1,3 +1,35 @@
+# Mr. Robotos Neighborhood
+
+#### Created by Christen Weston
+
+#### This is a program that will output "Beep!" for every number that contains 1, "Boop" for every number that contains 2, and "Won't you be my neighbor?" for every number that contains 3, while counting up to that number.
+
+[GitHub pages site](https://christenweston.github.io/MrRobosNeighborhood/)
+
+## Technologies Used
+
+* Git
+* HTML
+* CSS
+* JQuery
+
+## Setup Installation Requirements
+
+1. Clone the Portfolio repository
+2. Open the index file in your browser
+3. Enjoy!
+
+# Known Bugs
+* None known
+
+## Date Published
+November 2021
+
+## License Info
+[MIT License](https://opensource.org/licenses/MIT)
+
+## Specifications
+
 Describe: beepBoop()
 
 Test: "It should return an array with a 0 if the number 0 is inputted"

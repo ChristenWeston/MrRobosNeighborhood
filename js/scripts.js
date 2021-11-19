@@ -1,4 +1,6 @@
 //Business logic
+//i.toString().includes("1")
+
 
 function beepBoop(number) {
   const numberToBeep = parseInt(number);
@@ -7,9 +9,13 @@ function beepBoop(number) {
   for (let i = 0; i <=numberToBeep; i++) {
     if(i === 0) {
       numbersAndBeeps[i] = 0;
-      return numbersAndBeeps;
     }
- //   else if (numberToBeep) {}
+    else if (i > 0 && i === 1) {
+      numbersAndBeeps[i] = "Beep!";
+    }
+    else {
+      numbersAndBeeps[i] = i;
+    }
   }
   return numbersAndBeeps;
 }

@@ -5,6 +5,7 @@ $(document).ready(function() {
     event.preventDefault();
     const number = $("input#number").val();
     
+    $(".robot-hello").text(beepBoop(number));
     $("#welcome").show();
   });
 });

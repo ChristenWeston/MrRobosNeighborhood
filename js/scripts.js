@@ -13,6 +13,9 @@ function beepBoop(number) {
     else if (i > 0 && i.toString().includes("1")) {
       numbersAndBeeps[i] = "Beep!";
     }
+    else if (i > 0 && i.toString().includes("2")) {
+      numbersAndBeeps[i] = "Boop";
+    }
     else {
       numbersAndBeeps[i] = i;
     }

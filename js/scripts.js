@@ -5,10 +5,11 @@ function beepBoop(number) {
   let numbersAndBeeps = [];
 
   for (let i = 0; i <=numberToBeep; i++) {
-    if(numberToBeep === 0) {
+    if(i === 0) {
       numbersAndBeeps[i] = 0;
       return numbersAndBeeps;
     }
+ //   else if (numberToBeep) {}
   }
   return numbersAndBeeps;
 }

@@ -10,45 +10,30 @@
   <body>
     <div class="container">
       <h2>Welcome to Mr. Roboger's Neighborhood! </h2>
+
       <div>
         <div class="row">
           <div class="col-md-4 pull-left">
+            <form id="mr-robogers-neighborhood">
+              <div class="form-group">
+                <input id="number" class="form-control form-control-sm" type="text" placeholder="Enter a number">
+              </div>
+            <button type="submit" class="btn btn-info btn-sm">Let Mr. Roboger welcome you to the neighborhood!</button>
+            </form>
+            <img src="img/robot.jpg" alt="An image of a retro robot">
 
-        <img src="img/robot.jpg" alt="An image of a retro robot">
-        <form id="mr-robogers-neighborhood">
-          <div class="form-group">
-            <input id="number" class="form-control form-control-sm" type="text" placeholder="Enter a number">
           </div>
-
-          <button type="submit" class="btn btn-info btn-sm">Let Mr. Roboger welcome you to the neighborhood!</button>
-        </form>
-          </div>
-
-          <div class="col-md-4 pull-right">
+          <div class="col-md-8 pull-right">
             <div id="welcome">
               <div class="card mb-3" style="max-width: 840px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="img/robot.jpg" class="img-fluid rounded-start" alt="An image of a retro robot">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body text-success">
-                      <span class="robot-hello"></span>
-                    </div>
-                  </div>
+                <div class="card-body text-info">
+                  <span class="robot-hello"></span>
                 </div>
               </div>
             </div>
-
+          </div>
+        </div>
       </div>
-
-
-
-      </div>
-      </div>
-
-
-
     </div>
   </body>
 </html>

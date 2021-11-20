@@ -1,6 +1,7 @@
 #welcome {
   display: none;
-  margin-top:25px;
+  margin-top: 25px;
+  margin-bottom: 25px
 }
 
 img {
@@ -10,4 +11,8 @@ img {
 
 h2 {
   text-align: center;
+}
+
+.col-md-8 {
+  margin-top: 90px;
 }

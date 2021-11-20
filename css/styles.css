@@ -1,9 +1,13 @@
 #welcome {
   display: none;
-  margin-top: 20px;
+  margin-top:25px;
 }
 
 img {
-  height: 300px;
+  height: 450px;
   width: auto;
+}
+
+h2 {
+  text-align: center;
 }
